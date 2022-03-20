@@ -34,6 +34,8 @@ export default {
 
 <style scoped>
 .calculator{
+    margin:0 auto;
+    width:400px;
     display:grid;
     font-size: 30px;
     grid-template-columns: repeat(4, 1fr);
@@ -41,14 +43,15 @@ export default {
 }
 .display{
     grid-column:1/5;
-    background-color: red;;
+    background-color: #333;
+    color:white;
 }
 .zero{
     grid-column: 1 / 3;
 }
 .btn{
-    background-color: #eee;
-    border:1px solid #333;
+    background-color: #F2F2F2;
+    border:1px solid #999;
 }
 .operator{
     background-color: orange;
